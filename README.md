@@ -1,7 +1,7 @@
 # Rocket_Flight_Avionic_with_BeagleboneBlue
 
  Using MATLAB and Simulink with support package for beagleboneblue 
- Contain 
+ 
 - IMU
 - GPS
 - Estimate Altitude 
