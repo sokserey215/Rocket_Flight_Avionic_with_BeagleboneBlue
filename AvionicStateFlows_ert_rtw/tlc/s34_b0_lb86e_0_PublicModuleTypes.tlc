@@ -1,0 +1,26 @@
+%implements s34_b0_lb86e_0_PublicModuleTypes "C"
+
+%function PublicModuleTypes(block) Output
+
+
+/* Custom Type definition for MATLABSystem: '<Root>/I2C Master Write' */
+#include "MW_SVD.h"
+#include "MW_I2C.h"
+
+#ifndef struct_tag_YO7MTBNQTdpLMFBWTqSxKF
+#define struct_tag_YO7MTBNQTdpLMFBWTqSxKF
+struct tag_YO7MTBNQTdpLMFBWTqSxKF
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    uint32_T BusSpeed;
+    real_T DefaultMaximumBusSpeedInHz;
+    MW_Handle_Type MW_I2C_HANDLE;
+};
+#endif /* struct_tag_YO7MTBNQTdpLMFBWTqSxKF */
+#ifndef typedef_beagleboneblue_bbblueI2CMaste_T
+#define typedef_beagleboneblue_bbblueI2CMaste_T
+typedef struct tag_YO7MTBNQTdpLMFBWTqSxKF beagleboneblue_bbblueI2CMaste_T;
+#endif /* typedef_beagleboneblue_bbblueI2CMaste_T */
+%endfunction

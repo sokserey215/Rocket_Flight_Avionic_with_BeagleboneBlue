@@ -1,0 +1,16 @@
+%implements s34_b0_lb86e_0_BlockInstanceSetup "C"
+
+%function BlockInstanceSetup(block, system) Output
+%% Subsystems with iterators in IR:
+%% TLC Block Registration buffer:
+%<LibAddToCommonIncludes("MW_I2C.h")>
+%<LibAddToCommonIncludes("MW_bbblue_driver.h")>
+%<LibAddToCommonIncludes("MW_I2C.h")>
+%<LibAddToCommonIncludes("MW_digitalIO.h")>
+%<LibAddToCommonIncludes("MW_digitalIO.h")>
+%<LibAddToCommonIncludes("MW_I2C.h")>
+%<LibAddToCommonIncludes("MW_I2C.h")>
+%<LibAddToCommonIncludes("MW_MPU9250.h")>
+%<LibAddToCommonIncludes("MW_bbblue_driver.h")>
+%% END  Block Registration buffer
+%endfunction

@@ -1,0 +1,12 @@
+%implements s34_b0_lb86e_ModuleConstants "C"
+
+%function ModuleConstants(block) Output
+
+
+/* Named constants for Chart: '<Root>/Chart' */
+#define AvionicStateFlo_IN_ApogeeDetect (1U)
+#define AvionicStateFlo_IN_LaunchDetect (3U)
+#define AvionicStateFlow_IN_OnLaunchPad (4U)
+#define AvionicStateFlows_IN_Droping (2U)
+#define AvionicStateFlows_IN_TouchDown (5U)
+%endfunction

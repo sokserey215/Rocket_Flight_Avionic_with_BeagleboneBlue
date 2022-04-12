@@ -1,0 +1,422 @@
+%implements s34_b0_lb86e_TLCInterface "C"
+
+%function getInputAddr_23_12_1_9_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<52ffd1*//*@>52ffcb*/AvionicStateFlows_B./*@>52ffd7*/DataTypeConversion" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_23_12_1_9_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>52ffe7*/AvionicStateFlows_B./*@>52fff4*/DataTypeConversion" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_23_12_1_9_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<530008*//*@>530002*/AvionicStateFlows_B./*@>53000e*/BytePack" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutput_23_12_1_9_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>53001e*/AvionicStateFlows_B./*@>53002b*/BytePack" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_23_15_1_9_1_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<530054*//*@>53004e*/AvionicStateFlows_B./*@>53005a*/DataTypeConversion4" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_23_15_1_9_1_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>53006a*/AvionicStateFlows_B./*@>530077*/DataTypeConversion4" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_23_15_1_9_1_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<53008b*//*@>530085*/AvionicStateFlows_B./*@>530091*/BytePack3" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutput_23_15_1_9_1_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>5300a1*/AvionicStateFlows_B./*@>5300ae*/BytePack3" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_23_19_1_9_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<5300d7*//*@>5300d1*/AvionicStateFlows_B./*@>5300dd*/DataTypeConversion6" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_23_19_1_9_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>5300ed*/AvionicStateFlows_B./*@>5300fa*/DataTypeConversion6" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_23_19_1_9_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<53010e*//*@>530108*/AvionicStateFlows_B./*@>530114*/BytePack6" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutput_23_19_1_9_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>530124*/AvionicStateFlows_B./*@>530131*/BytePack6" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_23_24_1_9_3_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<53015a*//*@>530154*/AvionicStateFlows_B./*@>530160*/DataTypeConversion1"
+%endfunction
+
+%function getInput_23_24_1_9_3_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>530170*/AvionicStateFlows_B./*@>53017d*/DataTypeConversion1"
+%endfunction
+
+%function getOutputAddr_23_24_1_9_3_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<530191*//*@>53018b*/AvionicStateFlows_B./*@>530197*/BytePack1" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutput_23_24_1_9_3_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>5301a7*/AvionicStateFlows_B./*@>5301b4*/BytePack1" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_23_26_1_9_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<5301dd*//*@>5301d7*/AvionicStateFlows_B./*@>5301e3*/DataTypeConversion2"
+%endfunction
+
+%function getInput_23_26_1_9_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>5301f3*/AvionicStateFlows_B./*@>530200*/DataTypeConversion2"
+%endfunction
+
+%function getOutputAddr_23_26_1_9_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<530214*//*@>53020e*/AvionicStateFlows_B./*@>53021a*/BytePack2" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutput_23_26_1_9_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>53022a*/AvionicStateFlows_B./*@>530237*/BytePack2" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_23_28_1_9_5_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<530260*//*@>53025a*/AvionicStateFlows_B./*@>530266*/DataTypeConversion3"
+%endfunction
+
+%function getInput_23_28_1_9_5_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>530276*/AvionicStateFlows_B./*@>530283*/DataTypeConversion3"
+%endfunction
+
+%function getOutputAddr_23_28_1_9_5_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<530297*//*@>530291*/AvionicStateFlows_B./*@>53029d*/BytePack4" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutput_23_28_1_9_5_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>5302ad*/AvionicStateFlows_B./*@>5302ba*/BytePack4" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_23_30_1_9_6_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<5302e3*//*@>5302dd*/AvionicStateFlows_B./*@>5302e9*/RateTransition1"
+%endfunction
+
+%function getInput_23_30_1_9_6_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>5302f9*/AvionicStateFlows_B./*@>530306*/RateTransition1"
+%endfunction
+
+%function getInputAddr_23_30_1_9_6_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<53031a*//*@>530314*/AvionicStateFlows_B./*@>530320*/x" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_23_30_1_9_6_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>530330*/AvionicStateFlows_B./*@>53033d*/x" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_23_30_1_9_6_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<530351*//*@>53034b*/AvionicStateFlows_DW./*@>530357*/Scope_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_23_30_1_9_6_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>530367*/AvionicStateFlows_DW./*@>530374*/Scope_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_23_31_1_9_7_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<53039d*//*@>530397*/AvionicStateFlows_B./*@>5303a3*/RateTransition3"
+%endfunction
+
+%function getInput_23_31_1_9_7_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>5303b3*/AvionicStateFlows_B./*@>5303c0*/RateTransition3"
+%endfunction
+
+%function getInputAddr_23_31_1_9_7_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<5303d4*//*@>5303ce*/AvionicStateFlows_B./*@>5303da*/x" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_23_31_1_9_7_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>5303ea*/AvionicStateFlows_B./*@>5303f7*/x" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_23_31_1_9_7_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<53040b*//*@>530405*/AvionicStateFlows_DW./*@>530411*/Scope1_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_23_31_1_9_7_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>530421*/AvionicStateFlows_DW./*@>53042e*/Scope1_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_23_32_1_9_8_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<530457*//*@>530451*/AvionicStateFlows_B./*@>53045d*/x" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_23_32_1_9_8_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>53046d*/AvionicStateFlows_B./*@>53047a*/x" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_23_32_1_9_8_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<53048e*//*@>530488*/AvionicStateFlows_B./*@>530494*/acc" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_23_32_1_9_8_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>5304a4*/AvionicStateFlows_B./*@>5304b1*/acc" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_23_32_1_9_8_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<5304c5*//*@>5304bf*/AvionicStateFlows_DW./*@>5304cb*/Scope2_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_23_32_1_9_8_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>5304db*/AvionicStateFlows_DW./*@>5304e8*/Scope2_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_23_41_1_9_9_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<530511*//*@>53050b*/AvionicStateFlows_B./*@>530517*/h_AGL"
+%endfunction
+
+%function getInput_23_41_1_9_9_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>530527*/AvionicStateFlows_B./*@>530534*/h_AGL"
+%endfunction
+
+%function getInputAddr_23_41_1_9_9_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<530548*//*@>530542*/AvionicStateFlows_B./*@>53054e*/ManualSwitch"
+%endfunction
+
+%function getInput_23_41_1_9_9_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>53055e*/AvionicStateFlows_B./*@>53056b*/ManualSwitch"
+%endfunction
+
+%function getInputAddr_23_41_1_9_9_2_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<53057f*//*@>530579*/AvionicStateFlows_B./*@>530585*/Barometer"
+%endfunction
+
+%function getInput_23_41_1_9_9_2_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>530595*/AvionicStateFlows_B./*@>5305a2*/Barometer"
+%endfunction
+
+%function getDWorkAddr_23_41_1_9_9_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<5305b6*//*@>5305b0*/AvionicStateFlows_DW./*@>5305bc*/Scope_PWORK_c" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_23_41_1_9_9_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>5305cc*/AvionicStateFlows_DW./*@>5305d9*/Scope_PWORK_c" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_23_42_1_9_10_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<530602*//*@>5305fc*/AvionicStateFlows_B./*@>530608*/Barometer"
+%endfunction
+
+%function getInput_23_42_1_9_10_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>530618*/AvionicStateFlows_B./*@>530625*/Barometer"
+%endfunction
+
+%function getDWorkAddr_23_42_1_9_10_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<530639*//*@>530633*/AvionicStateFlows_DW./*@>53063f*/Scope1_PWORK_e"
+%endfunction
+
+%function getDWork_23_42_1_9_10_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>53064f*/AvionicStateFlows_DW./*@>53065c*/Scope1_PWORK_e"
+%endfunction
+
+%function getInputAddr_23_30_1_13_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<53071b*//*@>530715*/AvionicStateFlows_B./*@>530721*/RateTransition1"
+%endfunction
+
+%function getInput_23_30_1_13_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>530731*/AvionicStateFlows_B./*@>53073e*/RateTransition1"
+%endfunction
+
+%function getInputAddr_23_30_1_13_0_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<530752*//*@>53074c*/AvionicStateFlows_B./*@>530758*/x" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_23_30_1_13_0_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>530768*/AvionicStateFlows_B./*@>530775*/x" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_23_30_1_13_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<530789*//*@>530783*/AvionicStateFlows_DW./*@>53078f*/Scope_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_23_30_1_13_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>53079f*/AvionicStateFlows_DW./*@>5307ac*/Scope_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_23_31_1_13_1_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<5307d5*//*@>5307cf*/AvionicStateFlows_B./*@>5307db*/RateTransition3"
+%endfunction
+
+%function getInput_23_31_1_13_1_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>5307eb*/AvionicStateFlows_B./*@>5307f8*/RateTransition3"
+%endfunction
+
+%function getInputAddr_23_31_1_13_1_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<53080c*//*@>530806*/AvionicStateFlows_B./*@>530812*/x" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_23_31_1_13_1_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>530822*/AvionicStateFlows_B./*@>53082f*/x" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_23_31_1_13_1_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<530843*//*@>53083d*/AvionicStateFlows_DW./*@>530849*/Scope1_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_23_31_1_13_1_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>530859*/AvionicStateFlows_DW./*@>530866*/Scope1_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_23_32_1_13_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<53088f*//*@>530889*/AvionicStateFlows_B./*@>530895*/x" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_23_32_1_13_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>5308a5*/AvionicStateFlows_B./*@>5308b2*/x" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_23_32_1_13_2_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<5308c6*//*@>5308c0*/AvionicStateFlows_B./*@>5308cc*/acc" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_23_32_1_13_2_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>5308dc*/AvionicStateFlows_B./*@>5308e9*/acc" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_23_32_1_13_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<5308fd*//*@>5308f7*/AvionicStateFlows_DW./*@>530903*/Scope2_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_23_32_1_13_2_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>530913*/AvionicStateFlows_DW./*@>530920*/Scope2_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_23_41_1_13_3_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<530949*//*@>530943*/AvionicStateFlows_B./*@>53094f*/h_AGL"
+%endfunction
+
+%function getInput_23_41_1_13_3_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>53095f*/AvionicStateFlows_B./*@>53096c*/h_AGL"
+%endfunction
+
+%function getInputAddr_23_41_1_13_3_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<530980*//*@>53097a*/AvionicStateFlows_B./*@>530986*/ManualSwitch"
+%endfunction
+
+%function getInput_23_41_1_13_3_1_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>530996*/AvionicStateFlows_B./*@>5309a3*/ManualSwitch"
+%endfunction
+
+%function getInputAddr_23_41_1_13_3_2_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<5309b7*//*@>5309b1*/AvionicStateFlows_B./*@>5309bd*/Barometer"
+%endfunction
+
+%function getInput_23_41_1_13_3_2_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>5309cd*/AvionicStateFlows_B./*@>5309da*/Barometer"
+%endfunction
+
+%function getDWorkAddr_23_41_1_13_3_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<5309ee*//*@>5309e8*/AvionicStateFlows_DW./*@>5309f4*/Scope_PWORK_c" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_23_41_1_13_3_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>530a04*/AvionicStateFlows_DW./*@>530a11*/Scope_PWORK_c" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_23_42_1_13_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<530a3a*//*@>530a34*/AvionicStateFlows_B./*@>530a40*/Barometer"
+%endfunction
+
+%function getInput_23_42_1_13_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>530a50*/AvionicStateFlows_B./*@>530a5d*/Barometer"
+%endfunction
+
+%function getDWorkAddr_23_42_1_13_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&/*@<530a71*//*@>530a6b*/AvionicStateFlows_DW./*@>530a77*/Scope1_PWORK_e"
+%endfunction
+
+%function getDWork_23_42_1_13_4_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "/*@>530a87*/AvionicStateFlows_DW./*@>530a94*/Scope1_PWORK_e"
+%endfunction
+

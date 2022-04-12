@@ -1,0 +1,61 @@
+%implements s34_b0_lb86e_0_SystemInitialize "C"
+
+%function SystemInitialize(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+%openfile localVarDecl
+
+MW_I2C_Mode_Type ModeType;
+uint32_T i2cname;
+beagleboneblue_bbblueI2CMaste_T *obj;
+%closefile localVarDecl
+/* Start for MATLABSystem: '<Root>/I2C Master Write' */
+/*@>499718*/localDW->/*@>499a8a*/obj./*@>499a87*/matlabCodegenIsDeleted/*@>47b159*/ = /*@>498980*/true;
+/*@>49971f*/localDW->/*@>499a8d*/obj./*@>499a75*/DefaultMaximumBusSpeedInHz/*@>47b32d*/ = /*@>498962*/400000.0;
+/*@>499726*/localDW->/*@>499a90*/obj./*@>499a6f*/isInitialized/*@>47b399*/ = /*@>499a05*/0;
+/*@>49972d*/localDW->/*@>499a93*/obj./*@>499a84*/matlabCodegenIsDeleted/*@>47b1dc*/ = /*@>498979*/false;
+/*@>499734*/localDW->/*@>499a96*/objisempty/*@>47b1bb*/ = /*@>49897d*/true;
+/*@>498977*/obj/*@>47b1e0*/ = &/*@>49973b*/localDW->/*@>499a99*/obj;
+/*@>499742*/localDW->/*@>499a9c*/obj./*@>499a81*/isSetupComplete/*@>47b1e5*/ = /*@>498973*/false;
+/*@>499749*/localDW->/*@>499a9f*/obj./*@>499a7e*/isInitialized/*@>47b1ea*/ = /*@>499a08*/1;
+/*@>498970*/ModeType/*@>47b2e5*/ = /*@>498968*/MW_I2C_MASTER;
+/*@>49896e*/i2cname/*@>47b2e7*/ = /*@>498967*/1;
+/*@>49895c*/obj->/*@>499a78*/MW_I2C_HANDLE/*@>47b2ef*/ = /*@>4992db*/MW_I2C_Open(/*@>49896b*/i2cname, /*@>498969*/ModeType);
+/*@>499750*/localDW->/*@>499aa2*/obj./*@>499a72*/BusSpeed/*@>47b353*/ = /*@>498985*/100000U;
+/*@>4992dd*/MW_I2C_SetBusSpeed(/*@>499757*/localDW->/*@>499aa5*/obj.MW_I2C_HANDLE, /*@>49975e*/localDW->/*@>499aa8*/obj.BusSpeed);
+/*@>499765*/localDW->/*@>499aab*/obj./*@>499a7b*/isSetupComplete/*@>47b1fc*/ = /*@>498972*/true;
+%closefile cfgTxt
+%<cfgTxt>
+%assign rtmArgSys = ::CompiledModel.System[::CompiledModel.System[::CompiledModel.RTWCGModules.RTWCGModule[0].CGSystemIdx].NonInlinedParentSystemIdx]
+%if SysFcnArgNeeded("SystemInitialize", rtmArgSys.Interface.RTMArgDef, rtmArgSys.CurrentTID, FcnSysModuleIsRateGrouping(rtmArgSys, "SystemInitialize"))
+%<SLibCG_AccessArg(0, 0, 0)>
+%endif
+%if SLibCG_ArgAccessed(0, 0, 0)
+%<SLibAccessArg(rtmArgSys.Interface.RTMArgDef, "SystemInitialize", rtmArgSys.CurrentTID, FcnSysModuleIsRateGrouping(rtmArgSys, "SystemInitialize"))>
+%endif
+%if (IsModelReferenceBaseSys(rtmArgSys) && (IsModelRefScalableBuild() || GenerateClassInterface)) ||...
+(GenerateClassInterface && SLibIsMultiInstanceServer(rtmArgSys))
+%<SLibCG_UndoAccessArg(0, 0, 0)>
+%endif
+%<LibSetSystemField(system, "CachedSystemInitializeLocalVars", localVarDecl)>
+%endfunction
+%function SystemInitializeFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Avionic_I2CMasterWrite_Init(\
+%assign comma = ""
+%if SLibCG_ArgAccessed(0, 0, 0)
+%<comma>%<::tSimStructType> * const %<::tSimStruct>\
+%assign comma = ", "
+%<SLibUpdateSymbolForFunction("Avionic_I2CMasterWrite_Init", SLibGetFcnDefinitionRTMSymbolName(), TLC_FALSE)>\
+%endif
+%if SLibCG_ArgAccessed(0, 0, 1)
+%<comma>const uint8_T rtu_0[4]\
+%assign comma = ", "
+%endif
+%<comma>DW_I2CMasterWrite_AvionicStat_T *localDW\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 0, fcnProtoType)>
+%endfunction

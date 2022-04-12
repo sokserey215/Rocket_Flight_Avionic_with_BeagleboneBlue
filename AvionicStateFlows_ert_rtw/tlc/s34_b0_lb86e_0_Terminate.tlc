@@ -1,0 +1,43 @@
+%implements s34_b0_lb86e_0_Terminate "C"
+
+%function Terminate(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+/* {S!d6}Terminate for MATLABSystem: '<Root>/I2C Master Write' */
+/*@>47d120*/if (!/*@<47d11a*//*@>499773*/localDW->/*@>499b38*/obj.matlabCodegenIsDeleted) {
+    /*@>49977a*/localDW->/*@>499b3b*/obj./*@>499b35*/matlabCodegenIsDeleted/*@>47d119*/ = /*@>498999*/true;
+    /*@>47d139*/if ((/*@>499781*/localDW->/*@>499b3e*/obj.isInitialized/*@>47d138*/ == /*@>4989a8*/1)/*@>4999dd*/ && /*@>499788*/localDW->/*@>499b41*/obj.isSetupComplete) {
+        /*@>4992e1*/MW_I2C_Close(/*@>49978f*/localDW->/*@>499b44*/obj.MW_I2C_HANDLE);
+    }
+}
+/* {E!d6}End of Terminate for MATLABSystem: '<Root>/I2C Master Write' */
+%closefile cfgTxt
+%<cfgTxt>
+%assign rtmArgSys = ::CompiledModel.System[::CompiledModel.System[::CompiledModel.RTWCGModules.RTWCGModule[0].CGSystemIdx].NonInlinedParentSystemIdx]
+%if SysFcnArgNeeded("Terminate", rtmArgSys.Interface.RTMArgDef, rtmArgSys.CurrentTID, FcnSysModuleIsRateGrouping(rtmArgSys, "Terminate"))
+%<SLibCG_AccessArg(0, 2, 0)>
+%endif
+%if SLibCG_ArgAccessed(0, 2, 0)
+%<SLibAccessArg(rtmArgSys.Interface.RTMArgDef, "Terminate", rtmArgSys.CurrentTID, FcnSysModuleIsRateGrouping(rtmArgSys, "Terminate"))>
+%endif
+%if (IsModelReferenceBaseSys(rtmArgSys) && (IsModelRefScalableBuild() || GenerateClassInterface)) ||...
+(GenerateClassInterface && SLibIsMultiInstanceServer(rtmArgSys))
+%<SLibCG_UndoAccessArg(0, 2, 0)>
+%endif
+%endfunction
+%function TerminateFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Avionic_I2CMasterWrite_Term(\
+%assign comma = ""
+%if SLibCG_ArgAccessed(0, 2, 0)
+%<comma>%<::tSimStructType> * const %<::tSimStruct>\
+%assign comma = ", "
+%<SLibUpdateSymbolForFunction("Avionic_I2CMasterWrite_Term", SLibGetFcnDefinitionRTMSymbolName(), TLC_FALSE)>\
+%endif
+%<comma>DW_I2CMasterWrite_AvionicStat_T *localDW\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 2, fcnProtoType)>
+%endfunction
